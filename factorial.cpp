@@ -1,13 +1,15 @@
 #include <iostream>
+
+
 using namespace std;
 
-int factorial(int x) {
+int find_factorial(int x) {
     if (x == 0)
         return 1;
     else
-        return x * factorial(x - 1);
+        return x * find_factorial(x - 1);
 }
 
-int main() {
-    cout << "Factorial (10) = " << factorial(10) << endl;
+int factorial() {
+    cout << "Factorial (10) = " << find_factorial(10) << endl;
 }
