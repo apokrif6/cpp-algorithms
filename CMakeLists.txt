@@ -3,4 +3,4 @@ project(cpp_algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp_algorithms recsearch.cpp)
+add_executable(cpp_algorithms recsearch.cpp factorial.cpp)
