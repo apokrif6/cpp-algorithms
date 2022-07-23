@@ -1,8 +1,7 @@
 #include <iostream>
 
-void recsearch();
-void factorial();
-
+void recsearch(int x);
+void factorial(int x);
 int main() {
     // your func there :)
 }

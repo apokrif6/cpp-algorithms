@@ -13,7 +13,6 @@ void search(int tab[n], int left, int right, int x) {
         else search(tab, left + 1, right, x);
 }
 
-int recsearch() {
-    search(tab, 0, n-1, 9);
-    search(tab, 0, n-1, 5);
+int recsearch(int x) {
+    search(tab, 0, n-1, x);
 }

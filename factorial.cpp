@@ -10,6 +10,6 @@ int find_factorial(int x) {
         return x * find_factorial(x - 1);
 }
 
-int factorial() {
-    cout << "Factorial (10) = " << find_factorial(10) << endl;
+int factorial(int x) {
+    cout << "Factorial (" << x << ") = " << find_factorial(x) << endl;
 }
