@@ -8,6 +8,6 @@ int count_McCarthny(int x) {
        return count_McCarthny(count_McCarthny(x + 11));
 }
 
-int McCarthny(int x) {
+int recMcCarthny(int x) {
     cout << "McCarthny function(" << x << ") returned " << count_McCarthny(x) << endl;
 }

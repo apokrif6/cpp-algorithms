@@ -8,6 +8,6 @@ int find_fibonacci(int x) {
     return find_fibonacci(x - 1) + find_fibonacci(x - 2);
 }
 
-int fibonacci(int x) {
+int recfibonacci(int x) {
     cout << "Fibonacci for (" << x << ") = " << find_fibonacci(x) << endl;
 }

@@ -3,4 +3,4 @@ project(cpp_algorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp_algorithms "recursive algorithms/recsearch.cpp" "recursive algorithms/factorial.cpp" main.cpp "recursive algorithms/fibonacci.cpp" "recursive algorithms/McCarthny.cpp")
+add_executable(cpp_algorithms "recursive algorithms/recsearch.cpp" "recursive algorithms/recfactorial.cpp" main.cpp "recursive algorithms/recfibonacci.cpp" "recursive algorithms/recMcCarthny.cpp")
