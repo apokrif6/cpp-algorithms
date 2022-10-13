@@ -7,5 +7,5 @@ void recMcCarthny(int x);
 void recreversearray();
 
 int main() {
-    // your func there :)
+    // your func here :)
 }
